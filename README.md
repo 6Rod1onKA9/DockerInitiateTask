@@ -150,3 +150,6 @@ Oops! Our Flask app was unable to run since it was unable to connect to Elastics
 
 ![image](https://github.com/user-attachments/assets/95cadcb6-2d37-4ad3-a1a2-e5cd2c12c173)
 
+31) Let us now stop the services from running. We can always bring them back up in just one command. Data volumes will persist, so it’s possible to start the cluster again with the same data using `docker-compose up`. To destroy the cluster and the data volumes, we have to just type `docker-compose down -v`.
+
+![image](https://github.com/user-attachments/assets/805b0e0b-4726-4db6-a4fe-6c691364fa8d)
